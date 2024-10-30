@@ -1,0 +1,85 @@
+.movie-detail {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.backdrop {
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.backdrop h1 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.tagline {
+    font-style: italic;
+    color: #ddd;
+    margin: 10px 0;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+}
+
+.poster {
+    /* width: 300px; */
+    height: 500px;
+    width: 100vw;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.details {
+    max-width: 600px;
+}
+
+.info {
+    margin: 20px 0;
+}
+
+.info div {
+    margin-bottom: 8px;
+}
+
+.homepage {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.production {
+    margin-top: 20px;
+}
+
+.production .company {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.production img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
