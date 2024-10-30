@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./Navbar"
 import { BrowserRouter, Routes, Route } from "react-router-dom"; //when click on submit button at that time goes to next page
-import Popular from "./components/Navbar/Popular";
-import Upcoming from "./components/Navbar/Upcoming";
-import TopRated from "./components/Navbar/TopRated";
+import Popular from "./components/Popular";
+import Upcoming from "./components/Upcoming";
+import TopRated from "./components/TopRated";
 import { DetailPage } from "./components/DetailPage";
-import Card from "./components/Card";
+import Card from "./Card";
 import axios from "axios";
 import styled from "styled-components";
 const MoviesContainer = styled.div`

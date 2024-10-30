@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import styled from "styled-components";
-import "./MovieDetail.css";
+import "../MovieDetail.css";
 
 const CardContainer = styled.div`
   display: flex;

@@ -53,4 +53,3 @@ const Navbar = ({setSearch}) => {
 export default Navbar;
 
 
-// https://www.youtube.com/watch?v=xAqCEBFGdYk
